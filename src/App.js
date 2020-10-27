@@ -1,16 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-//components
-import Clock from "./components/Clock";
-import Greeting from "./components/Greeting";
-import Name from "./components/Name";
-import Form from "./components/Form";
-import TodoList from "./components/TodoList";
+
+import AppRouter from "./components/Router";
 
 const localName = "userName";
 const localTodos = "todos";
 
-function App() {
+const App = () => {
   //Use States
   const [name, setName] = useState("");
   const [todos, setTodos] = useState([]);
@@ -65,18 +61,15 @@ function App() {
     saveLocalTodos();
   }, [todos, status]);
   return (
-    <div className="App">
-      <Name name={name} setName={setName} />
-      <Clock />
-      <Greeting name={name} />
-      <Form todos={todos} setTodos={setTodos} setStatus={setStatus} />
-      <TodoList
-        todos={todos}
-        setTodos={setTodos}
-        filteredTodos={filteredTodos}
-      />
-    </div>
+    <AppRouter
+      name={name}
+      setName={setName}
+      todos={todos}
+      setTodos={setTodos}
+      filteredTodos={filteredTodos}
+      setStatus={setStatus}
+    />
   );
-}
+};
 
 export default App;
