@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../style/Weather.css";
 
 const API_KEY = "0d05d189601743c155e62d790b95c1d7";
 const localCoords = "coords";
@@ -70,8 +71,8 @@ const Weather = () => {
     };
     const loadCoords = () => {
       const loadedCoords = localStorage.getItem(localCoords);
-      const getWeather = (lat, lon) => {
-        fetch(
+      const getWeather = async (lat, lon) => {
+        await fetch(
           `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
         )
           .then((response) => {
@@ -94,14 +95,14 @@ const Weather = () => {
       }
     };
     loadCoords();
-  }, [weather]);
+  }, []);
   return (
-    <div>
-      <div>
-        <span>{Math.round(weather.temperature)}</span>
+    <div className="weatherContainer">
+      <div className="temp-icon">
         <i className={weather.iconClass}></i>
+        <span>{Math.round(weather.temperature)}°</span>
       </div>
-      {weather.place}
+      <div className="place">{weather.place}</div>
     </div>
   );
 };

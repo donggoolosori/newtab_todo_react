@@ -1,0 +1,19 @@
+.weatherContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.temp-icon {
+  font-size: 2rem;
+}
+.temp-icon i {
+  padding-right: 1rem;
+}
+.place {
+  font-size: 1.3rem;
+  margin-right: 0.7rem;
+}

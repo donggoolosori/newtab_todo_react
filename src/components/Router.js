@@ -24,7 +24,7 @@ const AppRouter = ({
         {name ? (
           <Route exact path="/">
             <Clock />
-            <Greeting name={name} />
+            <Greeting name={name} setName={setName} />
             <Form todos={todos} setTodos={setTodos} setStatus={setStatus} />
             <TodoList
               todos={todos}
@@ -33,7 +33,7 @@ const AppRouter = ({
             />
           </Route>
         ) : (
-          <Route exact path="/name">
+          <Route exact path="/">
             <Name name={name} setName={setName} />
           </Route>
         )}

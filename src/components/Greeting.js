@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Greeting.css";
 
 const Greeting = ({ name }) => {
   const hour = new Date().getHours();
@@ -11,7 +12,7 @@ const Greeting = ({ name }) => {
     greet = "Evening";
   }
   return (
-    <h1 className="js-greeting">
+    <h1 className="greeting">
       Good {greet} {name}!
     </h1>
   );

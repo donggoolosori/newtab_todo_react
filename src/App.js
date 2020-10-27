@@ -12,6 +12,7 @@ const App = () => {
   const [todos, setTodos] = useState([]);
   const [filteredTodos, setFilteredTodos] = useState([]);
   const [status, setStatus] = useState("all");
+
   //Use Effect
   // Run Once at Start
   useEffect(() => {

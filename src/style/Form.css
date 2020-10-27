@@ -1,0 +1,74 @@
+:root {
+  --add-Button-color: #00e676;
+  --background-color: #fffde7;
+  --text-color: #fffde7;
+  --check-Button-color: #3f51b5;
+  --trash-Button-color: #d81b60;
+  --black-color: #84ffff;
+}
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s linear;
+}
+.input-button {
+  margin-left: 2.7rem;
+}
+.todo-input,
+.todo-button {
+  padding: 0.5rem;
+  border-radius: 0;
+  background: none;
+}
+.todo-input {
+  font-size: 1.5rem;
+  outline: none;
+  text-align: center;
+  color: var(--text-color);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 3px;
+  border-bottom-color: var(--text-color);
+  padding-bottom: 0.5rem;
+}
+.todo-input::placeholder {
+  color: var(--text-color);
+}
+.todo-button {
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+  position: relative;
+  right: 37px;
+}
+/*CUSTOM SELECTOR */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+/* Custom Select */
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color: var(--check-Button-color);
+  cursor: pointer;
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  justify-content: center;
+}
