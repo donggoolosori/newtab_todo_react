@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Todo.css";
 
 const Todo = ({ todo, todos, setTodos, filteredTodos }) => {
   const completeHandler = () => {
@@ -18,10 +19,8 @@ const Todo = ({ todo, todos, setTodos, filteredTodos }) => {
     setTodos(todos.filter((item) => item.id !== todo.id));
   };
   return (
-    <div className="todo">
-      <li className={`todo-item ${todo.completed ? "completed" : ""}`}>
-        {todo.text}
-      </li>
+    <div className={`todo ${todo.completed ? "completed" : ""}`}>
+      <li className={"todo-item"}>{todo.text}</li>
       <button onClick={completeHandler} className="complete-btn">
         <i className="fas fa-check"></i>
       </button>

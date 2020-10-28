@@ -1,0 +1,14 @@
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: space-around;
+  max-height: 50vh;
+  min-width: 20%;
+  list-style: none;
+}

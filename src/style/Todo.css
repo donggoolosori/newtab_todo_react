@@ -1,0 +1,53 @@
+:root {
+  --add-Button-color: #00e676;
+  --background-color: #fffde7;
+  --text-color: #fffde7;
+  --check-Button-color: #45aaf2;
+  --trash-Button-color: #40739e;
+  --black-color: #84ffff;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  min-width: 40vh;
+  margin: 0.5rem;
+  background: white;
+  color: black;
+}
+.todo li {
+  flex: 1;
+  padding: 0 0.3rem;
+  text-align: center;
+}
+.complete-btn,
+.trash-btn {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-color);
+}
+.complete-btn {
+  background: var(--check-Button-color);
+}
+.trash-btn {
+  background: var(--trash-Button-color);
+}
+.complete-btn:hover {
+  background-color: var(--text-color);
+  color: var(--check-Button-color);
+}
+.trash-btn:hover {
+  background-color: var(--text-color);
+  color: var(--trash-Button-color);
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}

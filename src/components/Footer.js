@@ -1,8 +1,9 @@
 import React from "react";
+import "../style/Footer.css";
 
 const Footer = () => {
   return (
-    <>
+    <div className="footer-container">
       <div className="developer">
         <a href="https://www.instagram.com/dongjune_k10/">
           <i class="fab fa-instagram-square"></i>
@@ -14,8 +15,8 @@ const Footer = () => {
           <i class="fab fa-facebook-square"></i>
         </a>
       </div>
-      <div>&copy; dongjune</div>
-    </>
+      <div className="copyRight">&copy; dongjune</div>
+    </div>
   );
 };
 

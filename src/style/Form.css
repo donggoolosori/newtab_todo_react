@@ -6,6 +6,14 @@
   --trash-Button-color: #d81b60;
   --black-color: #84ffff;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .todo-form {
   display: flex;
   flex-direction: column;
@@ -45,6 +53,9 @@
   position: relative;
   right: 37px;
 }
+.todo-button:hover {
+  color: var(--add-Button-color);
+}
 /*CUSTOM SELECTOR */
 select {
   -webkit-appearance: none;
@@ -66,9 +77,13 @@ select {
 select {
   color: var(--check-Button-color);
   cursor: pointer;
-  width: 6rem;
+  width: 7rem;
   height: 2rem;
   font-size: 1rem;
   border-radius: 1rem;
-  justify-content: center;
+  text-align-last: center;
+}
+select:hover {
+  background: var(--check-Button-color);
+  color: var(--text-color);
 }
