@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-
 import AppRouter from "./components/Router";
+// 이미지 로드
+import bg1 from "./assets/img/1.jpg";
+import bg2 from "./assets/img/2.jpg";
+import bg3 from "./assets/img/3.jpg";
+import bg4 from "./assets/img/4.jpg";
+import bg5 from "./assets/img/5.jpg";
+import bg6 from "./assets/img/6.jpg";
+import bg7 from "./assets/img/7.jpg";
 
 const localName = "userName";
 const localTodos = "todos";
@@ -30,8 +37,45 @@ const App = () => {
         setTodos(JSON.parse(localStorage.getItem(localTodos)));
       }
     };
+    // write background image
+    const getRandomImage = () => {
+      const imgNum = 7;
+      const randomNum = Math.ceil(Math.random() * imgNum);
+      switch (randomNum) {
+        case 1:
+          return bg1;
+        case 2:
+          return bg2;
+        case 3:
+          return bg3;
+        case 4:
+          return bg4;
+        case 5:
+          return bg5;
+        case 6:
+          return bg6;
+        case 7:
+          return bg7;
+        // case 8:
+        //   return bg8;
+        // case 9:
+        //   return bg9;
+        // case 10:
+        //   return bg10;
+        default:
+          return bg1;
+      }
+    };
+    const bgImage = () => {
+      const body = document.querySelector("body");
+      const image = new Image();
+      image.src = getRandomImage();
+      image.classList.add("bgImage");
+      body.prepend(image);
+    };
     getLocalName();
     getLocalTodos();
+    bgImage();
   }, []);
   // Name Change
   useEffect(() => {

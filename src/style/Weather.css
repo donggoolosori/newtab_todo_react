@@ -17,3 +17,22 @@
   font-size: 1.3rem;
   margin-right: 0.7rem;
 }
+/* 날씨 아이콘 색 지정 */
+
+/* 구름, 비 */
+.fa-cloud,
+.fa-cloud-showers-heavy {
+  color: grey;
+}
+/* 번개 */
+.fa-bolt {
+  color: rgb(251, 255, 0);
+}
+/* 달 */
+.fa-moon {
+  color: yellow;
+}
+/* 해 */
+.fa-sun {
+  color: rgb(255, 136, 0);
+}
