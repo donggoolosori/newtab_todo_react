@@ -1,20 +1,26 @@
 :root {
-  --add-Button-color: #00e676;
+  --add-Button-color: #048513;
   --background-color: #fffde7;
   --text-color: #fffde7;
-  --check-Button-color: #47b8e0;
-  --trash-Button-color: #ff7473;
-  --black-color: #84ffff;
+  --check-Button-color: #536dfe;
+  --check-hover-color: #f9f5f5;
+  --trash-Button-color: #37474f;
+  --trash-hover-color: #f9f5f5;
+  --black-color: #2a3434;
 }
 .todo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
-  min-width: 40vh;
+  min-width: 38vh;
   margin: 0.5rem;
   background: white;
   color: black;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
 }
 .todo li {
   flex: 1;
@@ -34,13 +40,15 @@
 }
 .trash-btn {
   background: var(--trash-Button-color);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .complete-btn:hover {
-  background-color: var(--text-color);
-  color: var(--check-Button-color);
+  background-color: var(--check-hover-color);
+  color: var(--check-button-color);
 }
 .trash-btn:hover {
-  background-color: var(--text-color);
+  background-color: var(--trash-hover-color);
   color: var(--trash-Button-color);
 }
 .completed {
