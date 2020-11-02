@@ -22,7 +22,7 @@ const AppRouter = ({
       {<Weather />}
       <Switch>
         {name ? (
-          <Route exact path="/">
+          <Route exact path="">
             <Clock />
             <Greeting name={name} setName={setName} />
             <Form todos={todos} setTodos={setTodos} setStatus={setStatus} />
@@ -33,7 +33,7 @@ const AppRouter = ({
             />
           </Route>
         ) : (
-          <Route exact path="/">
+          <Route exact path="">
             <Clock />
             <Name name={name} setName={setName} />
           </Route>

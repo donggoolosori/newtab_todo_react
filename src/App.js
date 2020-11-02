@@ -15,7 +15,7 @@ import bg10 from "./assets/img/10.jpg";
 import bg11 from "./assets/img/11.jpg";
 
 const localName = "userName";
-const localTodos = "todos";
+const localTodos = "toDos";
 
 const App = () => {
   //Use States
