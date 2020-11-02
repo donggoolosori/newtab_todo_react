@@ -34,6 +34,7 @@ const AppRouter = ({
           </Route>
         ) : (
           <Route exact path="/">
+            <Clock />
             <Name name={name} setName={setName} />
           </Route>
         )}

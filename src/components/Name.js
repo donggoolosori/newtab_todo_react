@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../style/Name.css";
 
 const Name = ({ name, setName }) => {
   const [inputText, setInputText] = useState("");
@@ -13,7 +14,7 @@ const Name = ({ name, setName }) => {
   };
 
   return (
-    <form className="js-form" onSubmit={submitNameHandler}>
+    <form className="nameForm" onSubmit={submitNameHandler}>
       <input
         value={inputText}
         onChange={inputTextHandler}

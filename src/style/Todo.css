@@ -13,12 +13,12 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
-  min-width: 38vh;
+  min-width: 45vh;
   margin: 0.5rem;
   background: white;
   color: black;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
   border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
 }
@@ -40,8 +40,8 @@
 }
 .trash-btn {
   background: var(--trash-Button-color);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .complete-btn:hover {
   background-color: var(--check-hover-color);
@@ -53,7 +53,7 @@
 }
 .completed {
   text-decoration: line-through;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .fall {
   transform: translateY(8rem) rotateZ(20deg);

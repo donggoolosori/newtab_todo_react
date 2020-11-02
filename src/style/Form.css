@@ -1,9 +1,8 @@
 :root {
-  --add-Button-color: #00e676;
+  --add-Button-color: #42c14a;
   --background-color: #fffde7;
   --text-color: #fffde7;
-  --check-Button-color: #3f51b5;
-  --trash-Button-color: #d81b60;
+  --filter-Button-color: #42c14a;
   --black-color: #84ffff;
 }
 @keyframes fadeIn {
@@ -75,7 +74,7 @@ select {
   overflow: hidden;
 }
 select {
-  color: var(--check-Button-color);
+  color: var(--filter-Button-color);
   cursor: pointer;
   width: 7rem;
   height: 2rem;
@@ -84,6 +83,6 @@ select {
   text-align-last: center;
 }
 select:hover {
-  background: var(--check-Button-color);
+  background: var(--filter-Button-color);
   color: var(--text-color);
 }
