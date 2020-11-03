@@ -1,8 +1,7 @@
 :root {
-  --add-Button-color: #42c14a;
   --background-color: #fffde7;
   --text-color: #fffde7;
-  --filter-Button-color: #42c14a;
+  --filter-Button-color: #ff7473;
   --black-color: #84ffff;
 }
 @keyframes fadeIn {

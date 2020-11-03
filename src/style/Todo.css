@@ -1,10 +1,10 @@
 :root {
-  --add-Button-color: #048513;
+  --add-Button-color: #47b8e0;
   --background-color: #fffde7;
   --text-color: #fffde7;
-  --check-Button-color: #536dfe;
+  --check-Button-color: #47b8e0;
   --check-hover-color: #f9f5f5;
-  --trash-Button-color: #37474f;
+  --trash-Button-color: #34314c;
   --trash-hover-color: #f9f5f5;
   --black-color: #2a3434;
 }
@@ -45,7 +45,7 @@
 }
 .complete-btn:hover {
   background-color: var(--check-hover-color);
-  color: var(--check-button-color);
+  color: var(--check-Button-color);
 }
 .trash-btn:hover {
   background-color: var(--trash-hover-color);

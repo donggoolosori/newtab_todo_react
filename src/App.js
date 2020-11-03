@@ -106,7 +106,7 @@ const App = () => {
       }
     };
     const saveLocalTodos = () => {
-      localStorage.setItem("todos", JSON.stringify(todos));
+      localStorage.setItem(localTodos, JSON.stringify(todos));
     };
     filterHandler();
     saveLocalTodos();
