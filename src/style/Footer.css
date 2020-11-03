@@ -4,7 +4,8 @@
 .footer-container {
   position: absolute;
   bottom: 0;
-  left: 45.6%;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 1.5rem;
 }
 .developer a {
