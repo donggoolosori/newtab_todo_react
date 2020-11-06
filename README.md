@@ -1,8 +1,7 @@
-# new tab Todo
-
 # Description
 
-기존에 vanila javascript로 개발했던 앱을 react로 새로 개발했습니다. [https://github.com/Donggoolosori/newTab_ToDoList](https://github.com/Donggoolosori/newTab_ToDoList)
+기존에 vanila javascript로 개발했던 앱을 react로 새로 개발했습니다. 
+[vanila javacript로 개발한 todo 앱](https://github.com/Donggoolosori/newTab_ToDoList)
 
 기존 앱에서 배경화면 추가와  css 수정 및 필터링 기능을 추가했습니다.
 
@@ -24,17 +23,20 @@
 
 ### 1. 최초 실행 화면 (사용자 이름 입력)
 
-![new%20tab%20Todo%207ca2b042f301465d863c8d05755f200b/_2020-11-06__8.38.07.png](new%20tab%20Todo%207ca2b042f301465d863c8d05755f200b/_2020-11-06__8.38.07.png)
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 35 47" src="https://user-images.githubusercontent.com/53213397/98364371-03fadf00-2074-11eb-94d8-5955de1a97b0.png">
 
 ### 2. 이름 입력 후 앱 화면
 
-![new%20tab%20Todo%207ca2b042f301465d863c8d05755f200b/_2020-11-06__8.35.47.png](new%20tab%20Todo%207ca2b042f301465d863c8d05755f200b/_2020-11-06__8.35.47.png)
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 38 07" src="https://user-images.githubusercontent.com/53213397/98364378-0826fc80-2074-11eb-8751-4212a10ab7a9.png">
 
 ### 3. 할 일 체크 시 css 적용
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 53 30" src="https://user-images.githubusercontent.com/53213397/98364383-0a895680-2074-11eb-94af-07ff5a7afc20.png">
 
 ### 4. 완료 된 목록만 보기
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 53 39" src="https://user-images.githubusercontent.com/53213397/98364391-0d844700-2074-11eb-8169-1d7ddc03d120.png">
 
 ### 5. 완료하지 않은 목록만 목기
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 53 45" src="https://user-images.githubusercontent.com/53213397/98364392-0fe6a100-2074-11eb-88c4-40c5b292e80d.png">
 
 # 설치 방법
 
