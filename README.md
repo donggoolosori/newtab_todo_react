@@ -23,11 +23,11 @@
 
 ### 1. 최초 실행 화면 (사용자 이름 입력)
 
-<img width="1440" alt="스크린샷 2020-11-06 오후 8 35 47" src="https://user-images.githubusercontent.com/53213397/98364371-03fadf00-2074-11eb-94d8-5955de1a97b0.png">
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 38 07" src="https://user-images.githubusercontent.com/53213397/98364378-0826fc80-2074-11eb-8751-4212a10ab7a9.png">
 
 ### 2. 이름 입력 후 앱 화면
+<img width="1440" alt="스크린샷 2020-11-06 오후 8 35 47" src="https://user-images.githubusercontent.com/53213397/98364371-03fadf00-2074-11eb-94d8-5955de1a97b0.png">
 
-<img width="1440" alt="스크린샷 2020-11-06 오후 8 38 07" src="https://user-images.githubusercontent.com/53213397/98364378-0826fc80-2074-11eb-8751-4212a10ab7a9.png">
 
 ### 3. 할 일 체크 시 css 적용
 <img width="1440" alt="스크린샷 2020-11-06 오후 8 53 30" src="https://user-images.githubusercontent.com/53213397/98364383-0a895680-2074-11eb-94af-07ff5a7afc20.png">
