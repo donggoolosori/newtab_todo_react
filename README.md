@@ -18,8 +18,14 @@
 - 사용자의 위치 정보를 받아 우측 상단에 날씨 정보 표시
 - 실시간 시계 표시
 - 총 11개의 랜덤 배경 이미지
+# Installation
 
-## 실행 이미지
+1. 크롬 브라우저 접속
+2. 크롬 브라우저에서 다음의 링크 접속 [https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan](https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan)
+3. 오른쪽 상단의 chrome에 추가 클릭
+4. 새탭을 누른 후 뜨는 팝업 창 2개 모두 허용
+
+## App Image
 
 ### 1. 최초 실행 화면 (사용자 이름 입력)
 
@@ -38,9 +44,3 @@
 ### 5. 완료하지 않은 목록만 목기
 <img width="1440" alt="스크린샷 2020-11-06 오후 8 53 45" src="https://user-images.githubusercontent.com/53213397/98364392-0fe6a100-2074-11eb-88c4-40c5b292e80d.png">
 
-# 설치 방법
-
-1. 크롬 브라우저 접속
-2. 크롬 브라우저에서 다음의 링크 접속 [https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan](https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan)
-3. 오른쪽 상단의 chrome에 추가 클릭
-4. 새탭을 누른 후 뜨는 팝업 창 2개 모두 허용
