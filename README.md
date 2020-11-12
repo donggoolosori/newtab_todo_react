@@ -19,11 +19,8 @@
 - 실시간 시계 표시
 - 총 11개의 랜덤 배경 이미지
 # Installation
+Chrome App Store : [https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan](https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan)
 
-1. 크롬 브라우저 접속
-2. 크롬 브라우저에서 다음의 링크 접속 [https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan](https://chrome.google.com/webstore/detail/simple-todo-on-newtab/mfcapokfldknainnhmpaffpgbajkcgan)
-3. 오른쪽 상단의 chrome에 추가 클릭
-4. 새탭을 누른 후 뜨는 팝업 창 2개 모두 허용
 
 ## App Image
 
