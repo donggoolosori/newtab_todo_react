@@ -3,7 +3,7 @@ import "../style/Clock.css";
 
 const Clock = () => {
   let time = new Date();
-  const [ctime, setCtime] = useState(time);
+  const [ctime, setCtime] = useState(time); //current time
   let hour = ctime.getHours();
   let minute = ctime.getMinutes();
 
@@ -11,6 +11,7 @@ const Clock = () => {
     time = new Date();
     setCtime(time);
   };
+  // set time per second
   setInterval(updateTime, 1000);
   return (
     <div className="clock-container">

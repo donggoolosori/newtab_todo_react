@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import AppRouter from "./components/Router";
-// 이미지 로드
+// load image
 import bg1 from "./assets/img/1.jpg";
 import bg2 from "./assets/img/2.jpg";
 import bg3 from "./assets/img/3.jpg";
@@ -14,6 +14,7 @@ import bg9 from "./assets/img/9.jpg";
 import bg10 from "./assets/img/10.jpg";
 import bg11 from "./assets/img/11.jpg";
 
+// local storage name
 const localName = "userName";
 const localTodos = "toDos";
 
@@ -72,6 +73,7 @@ const App = () => {
           return bg1;
       }
     };
+    // paint background image
     const bgImage = () => {
       const body = document.querySelector("body");
       const image = new Image();
@@ -90,8 +92,9 @@ const App = () => {
     };
     saveLocalName();
   }, [name]);
-  // todos, status change
+  // Rerender when todos or status are changed
   useEffect(() => {
+    // set todos depends on status(completed, uncompleted, all)
     const filterHandler = () => {
       switch (status) {
         case "completed":
@@ -105,6 +108,7 @@ const App = () => {
           break;
       }
     };
+    // save todos to local storage
     const saveLocalTodos = () => {
       localStorage.setItem(localTodos, JSON.stringify(todos));
     };

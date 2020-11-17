@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/Greeting.css";
 
+// Greeting Component
 const Greeting = ({ name }) => {
   const hour = new Date().getHours();
   let greet;

@@ -4,9 +4,11 @@ import "../style/Name.css";
 const Name = ({ name, setName }) => {
   const [inputText, setInputText] = useState("");
 
+  // handle input text
   const inputTextHandler = (e) => {
     setInputText(e.target.value);
   };
+  // handle name submit
   const submitNameHandler = (e) => {
     e.preventDefault();
     setName(inputText);

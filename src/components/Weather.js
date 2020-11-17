@@ -63,6 +63,7 @@ const Weather = () => {
   };
 
   useEffect(() => {
+    // ask location
     const askForCoords = () => {
       navigator.geolocation.getCurrentPosition(
         handleGeoSuccess,
@@ -87,6 +88,7 @@ const Weather = () => {
             setWeather({ temperature, place, iconClass });
           });
       };
+      // if coordinate doesn't exist on localstorage, ask location of user
       if (loadedCoords === null) {
         askForCoords();
       } else {

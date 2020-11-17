@@ -2,6 +2,7 @@ import React from "react";
 import "../style/Todo.css";
 
 const Todo = ({ todo, todos, setTodos, filteredTodos }) => {
+  // handle complete button click
   const completeHandler = () => {
     setTodos(
       todos.map((item) => {
@@ -15,6 +16,7 @@ const Todo = ({ todo, todos, setTodos, filteredTodos }) => {
       })
     );
   };
+  // handle delete button click
   const deleteHandler = () => {
     setTodos(todos.filter((item) => item.id !== todo.id));
   };

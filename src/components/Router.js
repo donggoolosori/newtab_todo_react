@@ -21,6 +21,7 @@ const AppRouter = ({
     <Router>
       {<Weather />}
       <Switch>
+        {/* if name exist, show Clock,Greeting, Form, TodoList Components */}
         {name ? (
           <Route exact path="">
             <Clock />

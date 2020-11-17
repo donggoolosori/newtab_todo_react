@@ -4,14 +4,18 @@ import "../style/Form.css";
 
 const Form = ({ todos, setTodos, setStatus }) => {
   const [inputText, setInputText] = useState("");
+
+  // handle input text
   const inputTextHandler = (e) => {
     setInputText(e.target.value);
   };
+  // handle submit todo
   const submitTodoHandler = (e) => {
     e.preventDefault();
     setTodos([...todos, { text: inputText, completed: false, id: uuidv4() }]);
     setInputText("");
   };
+  // status of filter (all, completed, uncompleted)
   const statusHandler = (e) => {
     setStatus(e.target.value);
   };
